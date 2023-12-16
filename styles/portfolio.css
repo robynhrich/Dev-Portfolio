@@ -78,3 +78,40 @@ h2 {
     text-align: center;
   }
 }
+.about-hero {
+  background-color: #d3f6d1;
+  text-align: center;
+  padding: 80px 20px;
+}
+.about-hero h1 {
+  font-family: "Playfair Display", serif;
+  color: var(--main-text-color);
+  font-size: 80px;
+}
+.about-hero h2 {
+  font-family: "Permanent Marker", serif;
+  color: var(--main-text-color);
+  font-size: 40px;
+}
+.about-hero p {
+  font-family: "Playfair Display", serif;
+}
+
+@media (max-width: 900px) {
+  .about-hero h1 {
+    font-size: 35px;
+    line-height: 1.5;
+  }
+  .about-hero h2 {
+    font-size: 24px;
+  }
+}
+
+.btn-branding-work {
+  background: #2eb872;
+  color: #d3f6d1;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 20px;
+}
