@@ -115,3 +115,19 @@ h2 {
   line-height: 27px;
   padding: 10px 20px;
 }
+
+.content-container {
+  background-color: #d3f6d1;
+  text-align: center;
+  padding: 80px 20px;
+}
+.content h1 {
+  font-family: "Playfair Display", serif;
+  color: var(--main-text-color);
+  font-size: 80px;
+}
+.content h2 {
+  font-family: "Permanent Marker", serif;
+  color: var(--main-text-color);
+  font-size: 40px;
+}
