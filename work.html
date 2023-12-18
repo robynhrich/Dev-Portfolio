@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Below are current projects Robyn's been working on." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,6 +20,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <script
+      src="https://kit.fontawesome.com/29bfd86af8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -39,10 +44,22 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="/"></a>
-              <a class="nav-link" href="/">Home</a>
-              <a class="nav-link" href="/about.html">About</a>
-              <a class="nav-link" href="/work.html">Work</a>
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a class="nav-link" href="/" title="Homepage">Home</a>
+              <a
+                class="nav-link"
+                href="/about.html"
+                title="Learn more about Robyn"
+                >About</a
+              >
+              <a class="nav-link" href="/work.html" title="Current Projects"
+                >Work</a
+              >
+              <a
+                class="nav-link"
+                href="/contact.html"
+                title="Contact Robyn H Richardson"
+                >Contact</a
+              >
             </div>
           </div>
         </div>
@@ -50,14 +67,14 @@
     </header>
     <div class="content-container container">
       <div class="content">
-        <h1 class="mb-4">< current-projects ></h1>
+        <h1 class="mb-4">< projects ></h1>
         <h2>Check Out What I'm Working On</h2>
         <div class="row">
           <div class="col-6">
             <img
               src="images/Skycast.png"
               class="img-fluid max-width: 300px 300px"
-              alt=""
+              alt="Weather app thumbnail"
             />
             <h3>Weather App</h3>
             <p>Built with HTML, CSS, and Vanilla JS</p>
@@ -66,7 +83,7 @@
             <img
               src="images/Labyrinth.png"
               class="img-fluid max-width: 300px 300px"
-              alt=""
+              alt="Escape game thumbnail"
             />
             <h3>Escape Game</h3>
             <p>Built with HTML and CSS</p>
@@ -76,7 +93,7 @@
               <img
                 src="images/buffalowings.png"
                 class="img-fluid max-width:300px 300px"
-                alt=""
+                alt="Landing page Thumbnail"
               />
               <h3>Buffalo Wings Landing Page</h3>
               <p>Built With HTML, CSS, and JavaScript</p>
@@ -85,6 +102,36 @@
         </div>
       </div>
     </div>
+      <footer>
+    <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex " >
+      <div>
+    <h4 class="text-muted">Work Inquiry</h4>
+    <p class="text-muted">Let's Work Together</p>
+    </div>
+    <div>
+<a href="" class="btn btn-branding">Contact Me</a>
+</div>
+</div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:robynhrich@gmail.com" class="email-link"
+            >robynhrich@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://www.linkedin.com/in/robyn-h-richardson-5039a7252/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin fa-2xl" title="Connect on LinkedIn"></i>
+          </a>
+          <a href="https://github.com/robynhrich" target="_blank">
+            <i class="fa-brands fa-github fa-2xl" title="Github"></i>
+          </a>
+        
+        </div>
+          <p class="text-center">This website was coded by Robyn H Richardson and it is <a href="https://github.com/robynhrich/Dev-Portfolio" target="_blank">open-sourced</a> .</p>
+         </div>
+      </footer>
     <script src="src/portfolio.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

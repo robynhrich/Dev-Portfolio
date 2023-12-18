@@ -7,6 +7,12 @@ body {
   color: var(--main-text-color);
   font-family: var(--main-font-family);
 }
+.featured-projects {
+  font-size: 48px;
+  color: black;
+  font-weight: bold;
+  text-decoration: overline;
+}
 
 .navbar-brand {
   color: #d3f6d1;
@@ -101,13 +107,13 @@ p {
 }
 
 h2 {
-  font-family: var(--main-font-family);
+  font-family: var(--subheading-font-family);
   color: var(--main-text-color);
   font-size: 40px;
-  font-weight: bold;
 }
 .project-description {
   padding: 0 30px;
+  color: black;
 }
 @media (max-width: 900px) {
   h1 {
@@ -177,4 +183,11 @@ h2 {
 }
 h4 {
   font-size: 26px;
+}
+@media (max-width: 900px) {
+  .content h1 {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    font-size: 40px;
+  }
 }
