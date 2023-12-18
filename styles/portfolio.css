@@ -7,6 +7,13 @@ body {
   color: var(--main-text-color);
   font-family: var(--main-font-family);
 }
+.current-skills {
+  color: black;
+}
+.skill-icons img {
+  display: block;
+  font-size: 20px;
+}
 .featured-projects {
   font-size: 48px;
   color: black;
@@ -115,7 +122,7 @@ h2 {
   padding: 0 30px;
   color: black;
 }
-.container img {
+.project-peak img {
   box-sizing: border-box;
   background-color: #d3f6d1;
   padding: 30px 30px;
@@ -131,6 +138,9 @@ h2 {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .skill-icons img {
+    display: grid;
   }
 }
 .about-hero {
